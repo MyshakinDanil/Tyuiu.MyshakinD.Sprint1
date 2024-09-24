@@ -1,5 +1,5 @@
-﻿using Tyuiu.MyshakinD.Sprint1.Task2.V8.Lib;
-namespace Tyuiu.MyshakinD.Sprint1.Task2.V8
+﻿using Tyuiu.MyshakinD.Sprint1.Task3.V6.Lib;
+namespace Tyuiu.MyshakinD.Sprint1.Task3.V6
 {
     internal class Program
     {
@@ -10,9 +10,9 @@ namespace Tyuiu.MyshakinD.Sprint1.Task2.V8
             Console.Title = "Спринт #1 | Выполнил: Мышакин Д. | ПКТб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #8                                                              *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #6                                                              *");
             Console.WriteLine("* Выполнил: Мышакин Данил | ПКТб-24-1                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -21,20 +21,18 @@ namespace Tyuiu.MyshakinD.Sprint1.Task2.V8
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
-
-            int a;
-            Console.WriteLine("Введите значение A:");
-            a = Convert.ToInt32(Console.ReadLine());
-
-            int b;
-            Console.WriteLine("Введите значение B:");
-            b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
-            Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Периметр прямоугольника = " + ds.CalculatePerimetr(a, b));
-            
-            Console.ReadLine();
+
+            double distance = 67;
+            double gasFlow = 8.5;
+            double gasPrice = 6.5;
+            Console.WriteLine("Расстояние до дачи (км) -> " + distance);
+            Console.WriteLine("Расход бензина (литров на 100 км пробега) -> " + gasFlow);
+            Console.WriteLine("Цена литра бензина (руб.) -> " + gasPrice);
+
+            Console.WriteLine("Поездка на дачу и обратно обойдется в " + ds.TravelCost(distance, gasFlow, gasPrice) + " руб.");
+
+            Console.ReadKey();
         }
     }
 }
