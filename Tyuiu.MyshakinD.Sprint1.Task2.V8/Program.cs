@@ -7,7 +7,7 @@ namespace Tyuiu.MyshakinD.Sprint1.Task2.V8
         {
             DataService ds = new DataService();
             
-            Console.Title = "Спринт #1 | Выполнил: Мышакин Д. | ПКТб-24-1";
+            Console.Title = "Спринт #1 | Выполнил: Мышакин Д. | ПКТб-24-";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
