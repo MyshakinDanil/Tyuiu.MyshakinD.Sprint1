@@ -13,7 +13,7 @@ namespace Tyuiu.MyshakinD.Sprint1.Task5.V7.Test
             double res = ds.AngleToHoursMinutes(f);
             int result = Convert.ToInt32(res);
 
-            int wait = 1;
+            int wait = 2;
             Assert.AreEqual(wait, result);
 
         }

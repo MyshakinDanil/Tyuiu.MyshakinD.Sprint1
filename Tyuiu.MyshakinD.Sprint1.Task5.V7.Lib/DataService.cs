@@ -6,7 +6,7 @@ namespace Tyuiu.MyshakinD.Sprint1.Task5.V7.Lib
     {
         public int AngleToHoursMinutes(double f)
         {
-            return ((int)(f / 60.0));
+            return ((int)(f / 30.0));
         }
     }
 }
