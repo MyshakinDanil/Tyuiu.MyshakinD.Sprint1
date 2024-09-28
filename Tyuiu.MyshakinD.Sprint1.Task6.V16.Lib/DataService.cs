@@ -6,7 +6,7 @@ namespace Tyuiu.MyshakinD.Sprint1.Task6.V16.Lib
     {
         public bool CheckSpecSymbols(string value)
         {
-            if (value.Contains("!") && value.Contains("")) return true;
+            if (value.Contains("!") && value.Contains("?")) return true;
             else return false;
         }
     }
